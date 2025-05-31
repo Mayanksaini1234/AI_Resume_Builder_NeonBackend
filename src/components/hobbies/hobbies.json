@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_hobbies_hobbies",
+  "info": {
+    "displayName": "Hobbies",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "hobbyTitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

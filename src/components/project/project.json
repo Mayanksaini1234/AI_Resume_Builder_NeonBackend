@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_project_projects",
+  "info": {
+    "displayName": "project",
+    "icon": "attachment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "projectName": {
+      "type": "string"
+    },
+    "liveLink": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "string"
+    },
+    "discription": {
+      "type": "richtext"
+    }
+  }
+}

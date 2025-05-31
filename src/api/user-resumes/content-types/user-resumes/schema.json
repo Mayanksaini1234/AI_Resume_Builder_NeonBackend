@@ -32,9 +32,6 @@
     "jobTitle": {
       "type": "string"
     },
-    "address": {
-      "type": "string"
-    },
     "phone": {
       "type": "string"
     },
@@ -61,6 +58,46 @@
       "type": "component",
       "repeatable": true,
       "component": "experience.experience"
+    },
+    "skills1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "skills1.skills1"
+    },
+    "linkName1": {
+      "type": "string"
+    },
+    "linkUrl1": {
+      "type": "string"
+    },
+    "linkName2": {
+      "type": "string"
+    },
+    "linkUrl2": {
+      "type": "string"
+    },
+    "portfolioUrl": {
+      "type": "string"
+    },
+    "project": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project.project"
+    },
+    "certificate": {
+      "type": "component",
+      "repeatable": true,
+      "component": "certificate.certificate"
+    },
+    "responsibility": {
+      "type": "component",
+      "repeatable": true,
+      "component": "responsibility.responsibility"
+    },
+    "Hobbies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hobbies.hobbies"
     }
   }
 }

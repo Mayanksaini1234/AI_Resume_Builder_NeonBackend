@@ -20,6 +20,12 @@
     },
     "major": {
       "type": "string"
+    },
+    "marksNumber": {
+      "type": "string"
+    },
+    "marksType": {
+      "type": "string"
     }
   }
 }

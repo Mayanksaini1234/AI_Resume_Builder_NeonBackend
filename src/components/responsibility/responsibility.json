@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_responsibility_responsibilities",
+  "info": {
+    "displayName": "responsibility",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "positionTitle": {
+      "type": "string"
+    },
+    "societyName": {
+      "type": "string"
+    },
+    "startDate": {
+      "type": "string"
+    },
+    "endDate": {
+      "type": "string"
+    },
+    "discription": {
+      "type": "richtext"
+    }
+  }
+}

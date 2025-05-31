@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_certificate_certificates",
+  "info": {
+    "displayName": "certificate",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "certificateName": {
+      "type": "string"
+    },
+    "issuedBy": {
+      "type": "string"
+    },
+    "startDate": {
+      "type": "string"
+    },
+    "endDate": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "discription": {
+      "type": "richtext"
+    }
+  }
+}

@@ -385,7 +385,7 @@ export interface ApiUserResumesUserResumes extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    address: Schema.Attribute.String;
+    certificate: Schema.Attribute.Component<'certificate.certificate', true>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -393,8 +393,13 @@ export interface ApiUserResumesUserResumes extends Struct.CollectionTypeSchema {
     email: Schema.Attribute.String;
     experience: Schema.Attribute.Component<'experience.experience', true>;
     firstName: Schema.Attribute.String;
+    Hobbies: Schema.Attribute.Component<'hobbies.hobbies', true>;
     jobTitle: Schema.Attribute.String;
     lastName: Schema.Attribute.String;
+    linkName1: Schema.Attribute.String;
+    linkName2: Schema.Attribute.String;
+    linkUrl1: Schema.Attribute.String;
+    linkUrl2: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -402,8 +407,15 @@ export interface ApiUserResumesUserResumes extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.Private;
     phone: Schema.Attribute.String;
+    portfolioUrl: Schema.Attribute.String;
+    project: Schema.Attribute.Component<'project.project', true>;
     publishedAt: Schema.Attribute.DateTime;
+    responsibility: Schema.Attribute.Component<
+      'responsibility.responsibility',
+      true
+    >;
     skills: Schema.Attribute.Component<'skills.skillls', true>;
+    skills1: Schema.Attribute.Component<'skills1.skills1', true>;
     summery: Schema.Attribute.Text;
     themeColor: Schema.Attribute.String;
     title: Schema.Attribute.String;
